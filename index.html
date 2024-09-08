@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.png" type="image/png"> <!-- Adiciona o favicon -->
+    
+    <title>Sabores da Estação</title>
+</head>
+
+<body>
+    <header>
+        <div class="imagemtitulo">
+            <img src="imagemtitulo.png">
+        </div>
+        <h4>Saboreie a natureza em sua melhor forma! Os alimentos da estação são mais saborosos, nutritivos e sustentáveis. Ao consumi-los, você fortalece a economia local, reduz o impacto ambiental e garante uma alimentação mais saudável. Além, é claro, de pagar bem mais barato!</h4>
+        <h3>Digite o mês ou o alimento abaixo e confira a sazonalidade:</h3>
+    </header>
+    <main>
+        <section>
+            <input type="text" placeholder="Digite o mês ou o alimento" id="campo-pesquisa">
+            <button id="botao-pesquisar" onclick="pesquisar()">Pesquisar</button>
+        </section>
+
+        <section class="resultados-pesquisa"
+        id="resultados-pesquisa">
+        </section>
+    </main>
+
+    <footer>
+        <p>2024 - Sabores da Estação. Elaborado por Viviane Vilmes.</p>
+        <p>Entre em contato pelo e-mail: <a href="mailto:vivivyane@gmail.com.br">vivivyane@gmail.com.br</a></p>
+    </footer>
+
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
